@@ -1,0 +1,192 @@
+@charset "utf-8";
+html{
+    font-size: 62.5%;/* 16px × 62.5% = 10px*/
+}
+
+body{
+    color: #333333;
+
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+    font-size: 1.6rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* hero-image */
+.hero-image{
+    position: relative;
+    margin: 0 auto;
+}
+
+.hero-image__text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-90%,0);
+    font-size: 7.2rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+
+.btn{
+    display: block;
+    width: 214px;
+    margin: auto;
+    padding: 21px 0;
+    background-color:green;
+    color: #fff;
+    font-size: 1.8rem;
+} 
+
+
+.btn2{
+    display: block;
+    width: 500px;
+    margin: auto;
+    padding: 21px 0;
+    /* background-color:red;
+    color: #fff; */
+    font-size: 1.8rem;
+} 
+.btn_item{
+    display:block;
+    margin: 0 auto;
+}
+
+
+
+.profile__text{
+    line-height: 2;
+    font-size: 2.4rem;
+    text-align: justify;
+    text-align: inter-character;
+    text-align: center;
+}
+
+
+.profile{
+    padding: 0px 0
+}
+
+
+.profile-wrapper{
+    width: 560px;
+    margin: auto;
+}
+
+.profile__eyecatch{
+    margin: 0 0 24px;
+}
+
+
+ .syokai_inner{
+    width: 100%;
+    height: 100%;
+    padding:4px;
+    background-color: black;
+    border: 2px solid #ff6347;
+    border-radius: 10px;
+  }
+  .syokai_wrap{
+    height: 100%;
+    display: flex;
+  }
+
+  .syokai_left{
+    /* width: 30%; */
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+
+  .syokai_right{
+    color: white;
+    width: 70%;  
+}
+  
+  .syokai_left img{
+    display: block;
+    width: 250px;
+    height: auto;
+  }
+
+  #message_window {
+    font-size: 20px;
+    line-height: 2;
+}
+
+
+
+
+/* 
+
+
+
+.header{
+    background-color: #78d0fd;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    
+}
+
+.site-title{
+    color: #fff;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-item{
+    margin: 0 0 0 48px;
+}
+
+.nav-item>a{
+    color: #fff;
+}
+
+
+
+
+.profile__title{
+    margin: 0 0 40px;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.profile__name{
+    margin: 0 0 40px;
+    font-size: 2.4rem;
+}
+ */
+
+/* 
+.janken_link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-30%,0);
+    font-size: 7.2rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0.1em;
+
+} */
